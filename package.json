@@ -1,0 +1,37 @@
+{
+  "name": "git-automation-wf",
+  "version": "1.1.0",
+  "type": "module",
+  "description": "This is an npm package to auto git workflow for your project",
+  "main": "index.js",
+  "bin": {
+    "gitwf": "./index.js"
+  },
+  "scripts": {
+    "gitwf": "gitwf",
+    "test": "jest",
+    "start": "node index.js",
+    "postinstall": "node postinstall.js"
+  },
+  "keywords": [
+    "git",
+    "workflow",
+    "automation",
+    "developer tools"
+  ],
+  "author": "Akash Singh",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.5",
+    "inquirer": "^9.2.17",
+    "simple-git": "^3.24.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AK2k30/git-automatic-workflow-npm-package"
+  }
+}
