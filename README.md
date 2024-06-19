@@ -12,7 +12,7 @@
 Install gitwf with npm
 
 ```bash
-  npm install git-automation-wf
+  npm install git-auto-wf
 ```
 
 ## Getting Started with `git-automate-wf`
